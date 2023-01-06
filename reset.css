@@ -9,19 +9,21 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #101010;
+  --negro: #000000;
+  --blanco: #ffffff;
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
   --tipo-secundaria: Verdana;
 }
 
 /* Las adaptamos al modo oscuro */
-/*
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --negro: #ececec;
+    --negro: #ffffff;
+    --blanco: #000000;
   }
-}*/
+}
 /* Opcional */
 /* Desactivamos los animations en el caso de que el usuario haya configurado el modo sin animation */
 @media (prefers-reduced-motion: reduce) {
@@ -142,6 +144,7 @@ body {
   min-height: 100vh;
   font-size: 100%;
   font-family: var(--tipo-principal);
+  background-color: var(--blanco);
   color: var(--negro);
   /* opcional */
   line-height: 1.4em;
