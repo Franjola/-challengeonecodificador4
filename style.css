@@ -1,0 +1,55 @@
+/*CSS encriptador*/
+body{
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
+/*dimenciones encriptardor*/
+.main-box{
+    position: relative;
+    width: auto;
+    height: 1024px;
+}
+    /* logo o titulo*/
+.logo{
+    width: 5%;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+    /* ingreso de texto */
+.box-left{
+    float: left;
+    position: relative;
+    width: 54%;
+    height: auto;
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*ingreso de texto*/
+.box-left input{
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+}
+/*salida texto*/
+.box-rigth{
+    float: left;
+    width: 44%;
+    height: auto;
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-rigth input{
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+
+/*salida de texto*/
+
